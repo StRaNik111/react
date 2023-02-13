@@ -1,0 +1,110 @@
+.main {
+	flex: 0 1 70%;
+
+}
+
+.current-user__img {
+	margin-bottom: 15px;
+}
+
+.current-user__img img {
+	object-fit: cover;
+	height: 200px;
+	max-width: 100%;
+	width: 100%;
+}
+
+.current-user__body {
+	display: flex;
+	column-gap: 25px;
+}
+
+.current-user__avatar {
+	width: 200px;
+	height: 200px;
+	background-color: #eee;
+}
+
+.user-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.user-info__name {
+	margin-bottom: 15px;
+	font-size: 25px;
+	font-weight: 600;
+
+}
+
+.user-info__text {
+	margin-bottom: 5px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.user-info__text:last-child {
+	margin: 0;
+}
+
+
+
+/* SECTION POSTS   */
+
+.posts {
+	margin-top: 20px;
+}
+
+.posts__title {
+	margin-bottom: 15px;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.posts__form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	row-gap: 20px;
+}
+
+.posts__form__input {
+	padding: 10px;
+	background-color: rgb(172, 171, 171);
+	color: #fff;
+	min-height: 80px;
+	width: 100%;
+}
+
+.posts__form__input::placeholder {
+	color: #fff;
+
+}
+
+.posts__form__btn {
+	color: #fff;
+	padding: 20px;
+	text-transform: uppercase;
+	background-color: green;
+
+}
+
+.posts__items {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.item-posts {
+	display: flex;
+	align-items: center;
+	column-gap: 30px;
+}
+
+.item-posts__img {
+	background-color: #ffd500;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
